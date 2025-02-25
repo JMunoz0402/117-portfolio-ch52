@@ -1,0 +1,142 @@
+/* About me section */
+.about-section{
+    padding: 2%;
+}
+
+.about-image-container {
+    width: 40%;
+}
+
+.about-image-container img {
+    width: 60%;
+    border-radius: 100%;
+}
+
+.about-description-container {
+    width: 60%;
+}
+
+.about-description-container p {
+    margin: 2rem 0px;
+    width: 90%;
+}
+
+/* Skills Section */
+
+.skills-section {
+    padding: 2%;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 50%;
+    margin: 2rem 0px;
+}
+
+/* Projects section */
+.projects-section {
+    padding: 2rem;
+    margin: 5rem 0px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.project-card {
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    border-radius: 1%;
+}
+
+.project-card:hover {
+    opacity: 0.5;
+    border: 1px solid var(--secondary-color);
+}
+
+.skills-container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+a p:nth-child(2), .experince-card p:nth-child(1) {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 0.5rem 0px;
+}
+
+a p:nth-child(3), .experince-card p:nth-child(2) {
+    font-style: italic;
+}
+
+a p:nth-child(4), .experince-card p:nth-child(4) {
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+/* Contact Section */
+
+.contact-section form {
+    padding-top: 1rem;
+    background-color: #f2f6ff;
+    border: 1px solid #c1c8f0;
+    border-radius: 4px;
+    padding: 20px 30px 10px 20px;
+}
+
+.contact-section .field {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.contact-section .field label {
+    display: block;
+    color: var(--neutral-color);
+}
+
+.contact-section .field input, 
+.contact-section .field textarea {
+    width: 100% ;
+    padding: 5px;
+}
+
+
+
+/* CSS */
+.button-91 {
+color: #fff;
+padding: 15px 25px;
+background-color: #38D2D2;
+background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+border-radius: 14px;
+font-weight: bold;
+font-size: 16px;
+
+border: 0;
+
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
+cursor: pointer;
+}
