@@ -2,7 +2,14 @@
 
 {% load static %}
 {% block content %}
-<div>
+
+<section class="projects-section center-column">
+    {% if user.is_authenticated %}
+    <div class="add-project-container">
+        <a class="btn" href="{% url 'project_new' %}">Add New Project</a>
+    </div>
+    {% endif %}
+
     <h1>Welcome to my projects</h1>
 
     <h2>Projects</h2>
@@ -31,5 +38,6 @@
 
     </div>
 
+</section>
 
 {% endblock content %}

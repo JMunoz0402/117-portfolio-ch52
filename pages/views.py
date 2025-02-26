@@ -22,7 +22,7 @@ def contact_view(request):
             email = form.cleaned_data ['email']
             message = form.cleaned_data ['message']
 
-            #message_body = f"This is an email from your portfolio.\nName:{name}\nEmail:{email}\nMessage:\n{message}"
+            # message_body = f"This is an email from your portfolio.\nName:{name}\nEmail:{email}\nMessage:\n{message}"
             message_body = render_to_string("content/email.html", request.POST)
             
             # send the enail

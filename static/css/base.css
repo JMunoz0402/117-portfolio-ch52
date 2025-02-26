@@ -70,3 +70,17 @@ p {
     padding: 0.8rem 1.5rem;
     cursor: initial;
 }
+
+.btn {
+    background-color: var(--primary-color);
+    columns: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 2%;
+    font-family: var(--lobster-font);
+    font-size: 1.5rem;
+    letter-spacing: 0.08rem;
+}
+
+.btn:hover {
+    background-color: var(--surface-color);
+}
